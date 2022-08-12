@@ -9,10 +9,14 @@ environment:
 
 dependencies:
   micro_core:
-    path: ../micro_core
+    git:
+      url: https://github.com/gusttavovianna/micro_core.git
+      ref: v1.0.0
   
   base_ui:
-    path: ../base_ui
+    git:
+      url: https://github.com/gusttavovianna/base_ui.git
+      ref: v1.0.0
 
   flutter:
     sdk: flutter
